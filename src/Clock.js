@@ -20,7 +20,9 @@ function Clock(props) {
   return (
     <div className="App">
       <header className="App-header">
+      <h1>
       The time is {date.toLocaleTimeString()}
+      </h1>
         <a
           className="App-link"
           href="https://github.com/D7K7"
